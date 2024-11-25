@@ -56,7 +56,7 @@ const Footer = () => {
       </div>
       <hr className="border-white opacity-60 mt-1"></hr>
       <p className="text-sm opacity-60 flex flex-col items-center justify-center mt-2 pb-2 ">
-        Copyright Sebastian 2023
+        Copyright Waroeng Timoer 2024
       </p>
     </footer>
   );
