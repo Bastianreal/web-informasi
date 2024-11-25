@@ -12,10 +12,7 @@ export default function Location() {
         <div className="lg:ml-[500px] items-center flex flex-col">
           <div className="text-4xl font-bold mt-5">Lokasi Kami</div>
           <div className="text-2xl lg:w-[600px] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facere
-            commodi, molestias ipsam ad nobis porro ipsum repudiandae nostrum
-            dolore nesciunt perferendis aliquid error corrupti, dolorem
-            veritatis ab atque dicta?
+            Temukan kami di Jl. Dewi Kunti, Sumerta Kelod, Denpasar Selatan, Kota Denpasar, Bali 80239, Lokasi kami dekat dengan renon dan juga kampus warmadewa, cocok bagi anda untuk bersantai dan membuat tugas
           </div>
         </div>
       </div>
