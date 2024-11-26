@@ -7,7 +7,7 @@ export default function Location() {
           frameBorder="0"
           style={{ border: 0 }}
           allowFullScreen
-          className="lg:w-[500px] w-[370px] h-[400px]"
+          className="lg:w-[500px] w-[320px] h-[370px] justify-center items-center flex flex-col"
         ></iframe>
         <div className="lg:ml-[500px] items-center flex flex-col">
           <div className="text-4xl font-bold mt-5">Lokasi Kami</div>
