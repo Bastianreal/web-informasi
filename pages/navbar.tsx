@@ -22,25 +22,25 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block font-poppins">
               <div className="ml-4 flex items-center space-x-4">
-                <Link href="/">
+                <Link href="#Home">
                   <p className="text-black hover:bg-black hover:text-white rounded-lg transition duration-500 p-2">
                     Home
                   </p>
                 </Link>
-                <Link href="/">
+                <Link href="#AboutUs">
                   {" "}
                   <p className="text-black hover:bg-black hover:text-white rounded-lg transition duration-500 p-2">
                     Tentang Kami
                   </p>
                 </Link>
                 <Link
-                  href="/"
+                  href="#Menu"
                   className="text-black hover:bg-black hover:text-white rounded-lg transition duration-500 p-2"
                  >
                     Menu Kami
                   </Link>
                   <Link
-                  href="/"
+                  href="#Location"
                   className="text-black hover:bg-black hover:text-white rounded-lg transition duration-500 p-2"
                  >
                     Lokasi
@@ -98,26 +98,26 @@ const Navbar = () => {
           <div className="md:hidden ">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black font-poppins animate-geser focus:ease-in-out focus:duration-500">
               <Link
-                href="/"
+                href="#Home"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 Home
               </Link>
               <Link
-                href="/"
+                href="#AboutUs"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 Tentang Kami
               </Link>
               <Link
-                href="/"
+                href="#Menu"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 Menu Kami
               </Link>
               
               <Link
-                href="/"
+                href="#Location"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
                 onClick={toggleNavbar}
               >
